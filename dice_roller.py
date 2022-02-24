@@ -1,6 +1,12 @@
 import random
 def main():
   dice_sum = 0
+  s_t = input('Do you want to play solo or as a team?')
+  if s_t == 'solo':
+    s_t == input('Enter the name of the player: ')
+  else:
+    s_t == input('Enter the name of your team: ')
+  #t_name = input('Enter the name of your team')
   dice_rolls = int(input('How many dice would you like to roll?'))
   dice_size = int(input('How many sides are the dice?'))
   for i in range(0,dice_rolls):
